@@ -7,23 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B647C70EDDE6B581DD283D72 /* Pods_StarWarsLexicon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E50599641633241F5AED978 /* Pods_StarWarsLexicon.framework */; };
 		E384E40E2C93399A00D44345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E40D2C93399A00D44345 /* AppDelegate.swift */; };
 		E384E4102C93399A00D44345 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E40F2C93399A00D44345 /* SceneDelegate.swift */; };
-		E384E4122C93399A00D44345 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E4112C93399A00D44345 /* ViewController.swift */; };
-		E384E4152C93399A00D44345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E384E4132C93399A00D44345 /* Main.storyboard */; };
 		E384E4172C93399C00D44345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E384E4162C93399C00D44345 /* Assets.xcassets */; };
 		E384E41A2C93399C00D44345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E384E4182C93399C00D44345 /* LaunchScreen.storyboard */; };
+		E384E42A2C933B2300D44345 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E4292C933B2300D44345 /* Person.swift */; };
+		E384E42C2C933B3000D44345 /* Homeworld.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E42B2C933B3000D44345 /* Homeworld.swift */; };
+		E384E42E2C933B3C00D44345 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E42D2C933B3C00D44345 /* Vehicle.swift */; };
+		E384E4302C933B4500D44345 /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E42F2C933B4500D44345 /* Starship.swift */; };
+		E384E4322C933B5400D44345 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E4312C933B5400D44345 /* BackgroundView.swift */; };
+		E384E4342C933B6F00D44345 /* FadeEnabledBTN.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E4332C933B6F00D44345 /* FadeEnabledBTN.swift */; };
+		E384E4362C933B8F00D44345 /* SelectPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E4352C933B8F00D44345 /* SelectPersonVC.swift */; };
+		E384E4382C933B9A00D44345 /* HomeworldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E4372C933B9A00D44345 /* HomeworldVC.swift */; };
+		E384E43A2C933BA300D44345 /* VehiclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E4392C933BA300D44345 /* VehiclesVC.swift */; };
+		E384E43C2C933BAC00D44345 /* StarshipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E43B2C933BAC00D44345 /* StarshipsVC.swift */; };
+		E384E43E2C933BC200D44345 /* PersonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E43D2C933BC200D44345 /* PersonAPI.swift */; };
+		E384E4402C933BCE00D44345 /* HomeworldAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E43F2C933BCE00D44345 /* HomeworldAPI.swift */; };
+		E384E4422C933BDB00D44345 /* VehicleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E4412C933BDB00D44345 /* VehicleAPI.swift */; };
+		E384E4442C933BE800D44345 /* StarshipAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E4432C933BE800D44345 /* StarshipAPI.swift */; };
+		E384E4462C933C0F00D44345 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E4452C933C0F00D44345 /* Constants.swift */; };
+		E384E44C2C93698100D44345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E384E44B2C93698100D44345 /* Main.storyboard */; };
+		E384E44D2C93706300D44345 /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E384E44A2C933EAD00D44345 /* Starjout.ttf */; };
+		E384E44E2C93706600D44345 /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E384E4492C933EAD00D44345 /* Starjhol.ttf */; };
+		E384E44F2C93706900D44345 /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E384E4482C933EAD00D44345 /* Starjedi.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0446FB22864C71EE82EAE4A5 /* Pods-StarWarsLexicon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsLexicon.release.xcconfig"; path = "Target Support Files/Pods-StarWarsLexicon/Pods-StarWarsLexicon.release.xcconfig"; sourceTree = "<group>"; };
+		1C28CF56A8B112F236EBFEB1 /* Pods-StarWarsLexicon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsLexicon.debug.xcconfig"; path = "Target Support Files/Pods-StarWarsLexicon/Pods-StarWarsLexicon.debug.xcconfig"; sourceTree = "<group>"; };
+		6E50599641633241F5AED978 /* Pods_StarWarsLexicon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWarsLexicon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E384E40A2C93399A00D44345 /* StarWarsLexicon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsLexicon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E384E40D2C93399A00D44345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E384E40F2C93399A00D44345 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E384E4112C93399A00D44345 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E384E4142C93399A00D44345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E384E4162C93399C00D44345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E384E4192C93399C00D44345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E384E41B2C93399C00D44345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E384E4292C933B2300D44345 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E384E42B2C933B3000D44345 /* Homeworld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeworld.swift; sourceTree = "<group>"; };
+		E384E42D2C933B3C00D44345 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		E384E42F2C933B4500D44345 /* Starship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		E384E4312C933B5400D44345 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		E384E4332C933B6F00D44345 /* FadeEnabledBTN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeEnabledBTN.swift; sourceTree = "<group>"; };
+		E384E4352C933B8F00D44345 /* SelectPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPersonVC.swift; sourceTree = "<group>"; };
+		E384E4372C933B9A00D44345 /* HomeworldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldVC.swift; sourceTree = "<group>"; };
+		E384E4392C933BA300D44345 /* VehiclesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesVC.swift; sourceTree = "<group>"; };
+		E384E43B2C933BAC00D44345 /* StarshipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsVC.swift; sourceTree = "<group>"; };
+		E384E43D2C933BC200D44345 /* PersonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonAPI.swift; sourceTree = "<group>"; };
+		E384E43F2C933BCE00D44345 /* HomeworldAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldAPI.swift; sourceTree = "<group>"; };
+		E384E4412C933BDB00D44345 /* VehicleAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleAPI.swift; sourceTree = "<group>"; };
+		E384E4432C933BE800D44345 /* StarshipAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipAPI.swift; sourceTree = "<group>"; };
+		E384E4452C933C0F00D44345 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E384E4482C933EAD00D44345 /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		E384E4492C933EAD00D44345 /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
+		E384E44A2C933EAD00D44345 /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
+		E384E44B2C93698100D44345 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B647C70EDDE6B581DD283D72 /* Pods_StarWarsLexicon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		256F6ABC3F663B916DD98094 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C28CF56A8B112F236EBFEB1 /* Pods-StarWarsLexicon.debug.xcconfig */,
+				0446FB22864C71EE82EAE4A5 /* Pods-StarWarsLexicon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C3907282C6C91264FA0B0EFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E50599641633241F5AED978 /* Pods_StarWarsLexicon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E384E4012C93399A00D44345 = {
 			isa = PBXGroup;
 			children = (
 				E384E40C2C93399A00D44345 /* StarWarsLexicon */,
 				E384E40B2C93399A00D44345 /* Products */,
+				256F6ABC3F663B916DD98094 /* Pods */,
+				C3907282C6C91264FA0B0EFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +114,112 @@
 		E384E40C2C93399A00D44345 /* StarWarsLexicon */ = {
 			isa = PBXGroup;
 			children = (
-				E384E40D2C93399A00D44345 /* AppDelegate.swift */,
-				E384E40F2C93399A00D44345 /* SceneDelegate.swift */,
-				E384E4112C93399A00D44345 /* ViewController.swift */,
-				E384E4132C93399A00D44345 /* Main.storyboard */,
-				E384E4162C93399C00D44345 /* Assets.xcassets */,
-				E384E4182C93399C00D44345 /* LaunchScreen.storyboard */,
 				E384E41B2C93399C00D44345 /* Info.plist */,
+				E384E4232C933A8F00D44345 /* Model */,
+				E384E4242C933A9A00D44345 /* View */,
+				E384E4252C933AA300D44345 /* Controller */,
+				E384E4272C933AC100D44345 /* Utils */,
+				E384E4282C933ACC00D44345 /* Resources */,
+				E384E4262C933AB400D44345 /* Services */,
+				E384E4762C94F5B000D44345 /* App Lifecycle */,
+				E384E4752C94F58C00D44345 /* UI */,
 			);
 			path = StarWarsLexicon;
+			sourceTree = "<group>";
+		};
+		E384E4232C933A8F00D44345 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E384E4292C933B2300D44345 /* Person.swift */,
+				E384E42B2C933B3000D44345 /* Homeworld.swift */,
+				E384E42D2C933B3C00D44345 /* Vehicle.swift */,
+				E384E42F2C933B4500D44345 /* Starship.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E384E4242C933A9A00D44345 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E384E4312C933B5400D44345 /* BackgroundView.swift */,
+				E384E4332C933B6F00D44345 /* FadeEnabledBTN.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E384E4252C933AA300D44345 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E384E4352C933B8F00D44345 /* SelectPersonVC.swift */,
+				E384E4372C933B9A00D44345 /* HomeworldVC.swift */,
+				E384E4392C933BA300D44345 /* VehiclesVC.swift */,
+				E384E43B2C933BAC00D44345 /* StarshipsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E384E4262C933AB400D44345 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E384E43D2C933BC200D44345 /* PersonAPI.swift */,
+				E384E43F2C933BCE00D44345 /* HomeworldAPI.swift */,
+				E384E4412C933BDB00D44345 /* VehicleAPI.swift */,
+				E384E4432C933BE800D44345 /* StarshipAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E384E4272C933AC100D44345 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E384E4452C933C0F00D44345 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E384E4282C933ACC00D44345 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E384E4782C94F5E800D44345 /* Assets */,
+				E384E4472C933C1E00D44345 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E384E4472C933C1E00D44345 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E384E4482C933EAD00D44345 /* Starjedi.ttf */,
+				E384E4492C933EAD00D44345 /* Starjhol.ttf */,
+				E384E44A2C933EAD00D44345 /* Starjout.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E384E4752C94F58C00D44345 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E384E44B2C93698100D44345 /* Main.storyboard */,
+				E384E4182C93399C00D44345 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E384E4762C94F5B000D44345 /* App Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				E384E40D2C93399A00D44345 /* AppDelegate.swift */,
+				E384E40F2C93399A00D44345 /* SceneDelegate.swift */,
+			);
+			path = "App Lifecycle";
+			sourceTree = "<group>";
+		};
+		E384E4782C94F5E800D44345 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E384E4162C93399C00D44345 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E384E41E2C93399C00D44345 /* Build configuration list for PBXNativeTarget "StarWarsLexicon" */;
 			buildPhases = (
+				6061886341ECBD8F2D456844 /* [CP] Check Pods Manifest.lock */,
 				E384E4062C93399A00D44345 /* Sources */,
 				E384E4072C93399A00D44345 /* Frameworks */,
 				E384E4082C93399A00D44345 /* Resources */,
+				B10A685C60B22CF0158E997F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +282,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E384E44D2C93706300D44345 /* Starjout.ttf in Resources */,
 				E384E41A2C93399C00D44345 /* LaunchScreen.storyboard in Resources */,
+				E384E44C2C93698100D44345 /* Main.storyboard in Resources */,
+				E384E44E2C93706600D44345 /* Starjhol.ttf in Resources */,
+				E384E44F2C93706900D44345 /* Starjedi.ttf in Resources */,
 				E384E4172C93399C00D44345 /* Assets.xcassets in Resources */,
-				E384E4152C93399A00D44345 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6061886341ECBD8F2D456844 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarWarsLexicon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B10A685C60B22CF0158E997F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarWarsLexicon/Pods-StarWarsLexicon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarWarsLexicon/Pods-StarWarsLexicon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarWarsLexicon/Pods-StarWarsLexicon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E384E4062C93399A00D44345 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E384E4122C93399A00D44345 /* ViewController.swift in Sources */,
+				E384E42E2C933B3C00D44345 /* Vehicle.swift in Sources */,
+				E384E4302C933B4500D44345 /* Starship.swift in Sources */,
+				E384E4402C933BCE00D44345 /* HomeworldAPI.swift in Sources */,
+				E384E4342C933B6F00D44345 /* FadeEnabledBTN.swift in Sources */,
+				E384E4362C933B8F00D44345 /* SelectPersonVC.swift in Sources */,
+				E384E4322C933B5400D44345 /* BackgroundView.swift in Sources */,
+				E384E43C2C933BAC00D44345 /* StarshipsVC.swift in Sources */,
 				E384E40E2C93399A00D44345 /* AppDelegate.swift in Sources */,
+				E384E4422C933BDB00D44345 /* VehicleAPI.swift in Sources */,
+				E384E4382C933B9A00D44345 /* HomeworldVC.swift in Sources */,
+				E384E42A2C933B2300D44345 /* Person.swift in Sources */,
+				E384E42C2C933B3000D44345 /* Homeworld.swift in Sources */,
+				E384E43E2C933BC200D44345 /* PersonAPI.swift in Sources */,
+				E384E4442C933BE800D44345 /* StarshipAPI.swift in Sources */,
 				E384E4102C93399A00D44345 /* SceneDelegate.swift in Sources */,
+				E384E43A2C933BA300D44345 /* VehiclesVC.swift in Sources */,
+				E384E4462C933C0F00D44345 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E384E4132C93399A00D44345 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E384E4142C93399A00D44345 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E384E4182C93399C00D44345 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -203,7 +411,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +474,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +495,7 @@
 		};
 		E384E41F2C93399C00D44345 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C28CF56A8B112F236EBFEB1 /* Pods-StarWarsLexicon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +524,7 @@
 		};
 		E384E4202C93399C00D44345 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0446FB22864C71EE82EAE4A5 /* Pods-StarWarsLexicon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
